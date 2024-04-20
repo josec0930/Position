@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,6 +13,32 @@ html {
     width: 100%;
     height: 100%;
     font-family: 'fuente1';
+    /* fondo de pagina */
+    background-image: url(recursos/images/fondop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.267);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    padding: 15px;
+}
+
+.logo img {
+    width: 80px;
+    border-radius: 50%;
 }
 
 .contenedor {
@@ -20,9 +46,10 @@ html {
     width: 90%;
     margin: 2rem auto;
 }
-.contenedor .fondo .section:hover{
+
+.contenedor .fondo .section:hover {
     background-color: rgba(76, 58, 58, 0.4);
-    transform: scale(1,2);
+    transform: scale(1, 2);
     transition: all 2s;
 }
 
@@ -54,36 +81,42 @@ html {
     width: 26%;
     height: 15%;
 }
+
 .contenedor .fondo .section.tres {
     top: 10%;
     left: 71%;
     width: 26%;
     height: 19%;
 }
+
 .contenedor .fondo .section.cuatro {
     top: 40%;
     left: 14%;
     width: 21%;
 }
+
 .contenedor .fondo .section.cinco {
     top: 45%;
     left: 57%;
     width: 31%;
     height: 18%;
 }
+
 .contenedor .fondo .section.seis {
     top: 68%;
     left: 10%;
     width: 30%;
     height: 20%;
 }
+
 .contenedor .fondo .section.siete {
     top: 74%;
     left: 64%;
     width: 31%;
     height: 15%;
 }
-.contenedor .fondo .ocho img{
+
+.contenedor .fondo .ocho img {
     position: absolute;
     width: 85px;
     top: 59%;
