@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'fuente1';
+    src: url(recursos/font/ProductSans.ttf);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'fuente1';
+}
+
+.contenedor {
+    max-width: 55rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+.contenedor .fondo .section:hover{
+    background-color: rgba(76, 58, 58, 0.4);
+    transform: scale(1,2);
+    transition: all 2s;
+}
+
+.contenedor .fondo {
+    background: url(recursos/images/fondo.png);
+    background-size: 100%;
+    width: 100%;
+    padding-top: 58%;
+    position: relative;
+}
+
+.contenedor .fondo .section {
+    width: 30%;
+    height: 14%;
+    border-radius: 1.5625rem;
+    /*border: 1px solid red;*/
+    position: absolute;
+}
+
+.contenedor .fondo .section.uno {
+    top: 8%;
+    left: 6%;
+    width: 30%;
+}
+
+.contenedor .fondo .section.dos {
+    top: 19%;
+    left: 38%;
+    width: 26%;
+    height: 15%;
+}
+.contenedor .fondo .section.tres {
+    top: 10%;
+    left: 71%;
+    width: 26%;
+    height: 19%;
+}
+.contenedor .fondo .section.cuatro {
+    top: 40%;
+    left: 14%;
+    width: 21%;
+}
+.contenedor .fondo .section.cinco {
+    top: 45%;
+    left: 57%;
+    width: 31%;
+    height: 18%;
+}
+.contenedor .fondo .section.seis {
+    top: 68%;
+    left: 10%;
+    width: 30%;
+    height: 20%;
+}
+.contenedor .fondo .section.siete {
+    top: 74%;
+    left: 64%;
+    width: 31%;
+    height: 15%;
+}
+.contenedor .fondo .ocho img{
+    position: absolute;
+    width: 85px;
+    top: 59%;
+    left: 43%;
+}
